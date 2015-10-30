@@ -1,0 +1,5 @@
+ABA*
+BAA*
+A*A*
+A*BA**
+A*AB
