@@ -1,0 +1,24 @@
+foo@bar.com
+this is not an email id
+admin#codeeval.com
+admin@codeeval.co.in
+good123@bad.com
+A@b@c@example.com
+this\ still\"not\\allowed@example.com
+a.little.lengthy.but.fine@dept.example.com
+
+
+
+asterisk_domain@foo.*
+disposable.style.email.with+156@example.com
+
+disposable.style.email.with+n@example.com
+
+"very.unusual.@.unusual.com"@example.com
+just"not"right@example.com
+a"b(c)d,e:f;g<h>i[j\k]l@example.com
+1@gm.com
+asterisk_domain@foo.*
+bom_bo@dom.com
+<invalid>@foo.com
+A@b@c@example.com
