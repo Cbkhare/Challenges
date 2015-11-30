@@ -12,7 +12,7 @@ contents = [int(line.strip('\n')) for line in fp]
 #print (contents)
 
 chars = {}
-for i in range(97,123):
+for i in range(97,123):                 #A-65,a-97
     chars[i-96] = (chr(i)).upper()
     
 for item in contents:
