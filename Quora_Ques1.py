@@ -11,7 +11,8 @@ if __name__ == '__main__':
     least = mx
     for num in range(mn,mx+1):
         if num not in c:
-            if num < least: least = num
+            least = num
+            break
     print(least)
         
     
