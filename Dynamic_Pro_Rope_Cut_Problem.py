@@ -1,24 +1,26 @@
-def prody(N):
-    memo = {}
-    if N==1:
+def prody(N,memo):
+    print (memo)
+    if N in memo:   return memo[N]
+    elif N==1:
         memo[1]=1
     elif N==2:
         memo[2]=2
     elif N==3:
         memo[3]=3
     else:
-        if N not in memo:
-            maxy = 0
-            for i in range(1,int(N/2)+1):
-                maxy = max(maxy,i*(N-i),prody(N-i)*i)
-            memo[N]=maxy
+        maxy = 0
+        for i in range(1,int(N/2)+1):
+            print (i,N)
+            maxy = max(maxy,i*(N-i),prody(N-i,memo)*i)
+        memo[N]=maxy
     return memo[N]
             
-    
+#7412080755407364  
 def maxProd(N):
     if N<4:    return N-1
     else:
-        return prody(N)
+        memo = {}
+        return prody(N,memo)
 
             
 if __name__=='__main__':
