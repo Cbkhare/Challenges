@@ -1,8 +1,7 @@
 from math import log as lg
 
 if __name__=='__main__':
-    n,b,p = map(int,input().split(' '))
-
+    n,b,p=map(int,input().split())
     bottle= 0
     k = pow(2,int(lg(n,2)))
     towel = n*p
@@ -11,10 +10,12 @@ if __name__=='__main__':
         n = int(k/2)+n-k     #winners + rem
         if n>0:
             k = pow(2,int(lg(n,2)))
+            
     print (bottle,towel)
-        
-'''
+    #else
+    #print ((n-1)*(2*b+1),n*p)
 
+'''
 A. Tennis Tournament
 time limit per test
 1 second
