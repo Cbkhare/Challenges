@@ -3,7 +3,6 @@ from math import pi
 if __name__=='__main__':
     g = {}                  #Dictionary to store results
     def bazinga(i,C):
-        print (i)
         if C=={}:
             return 0
         else:
