@@ -18,14 +18,6 @@ class Solution:
 if __name__=='__main__':
     n = int(input())
     for i in range(n):
-        #B = Linked_List()
-        #C = Linked_List()
-        #strng1 = list(map(int,input().split(' ')))
-        #strng2 = list(map(int,input().split(' ')))
-        #for j in range(len(strng1)):
-        #    ('Insert- ',B.insert(strng1[j]))
-        #for j in range(len(strng2)):
-        #    ('Insert- ',C.insert(strng2[j]))
         S = Solution()
         c = list(map(int,input().split(' ')))
         c1 = int(input())
