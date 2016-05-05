@@ -42,14 +42,6 @@ class Solution:
 if __name__=='__main__':
     n = int(input())
     for i in range(n):
-        #B = Linked_List()
-        #C = Linked_List()
-        #strng1 = list(map(int,input().split(' ')))
-        #strng2 = list(map(int,input().split(' ')))
-        #for j in range(len(strng1)):
-        #    ('Insert- ',B.insert(strng1[j]))
-        #for j in range(len(strng2)):
-        #    ('Insert- ',C.insert(strng2[j]))
         S = Solution()
         c = list(map(int,input().split(' ')))
         c1 = int(input())
@@ -59,7 +51,10 @@ if __name__=='__main__':
 '''
 SLIDINGMAX
 
-A long array A[] is given to you. There is a sliding window of size w which is moving from the very left of the array to the very right. You can only see the w numbers in the window. Each time the sliding window moves rightwards by one position.
+A long array A[] is given to you. There is a sliding window of size w
+which is moving from the very left of the array to the very right.
+You can only see the w numbers in the window. Each time the sliding
+window moves rightwards by one position.
 
 Example :
 
