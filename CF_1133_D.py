@@ -1,6 +1,6 @@
 from sys import stdin as si
 
-
+# https://github.com/Cbkhare/Algorithms/blob/master/GCD_Euclidean.py
 def gcd(a, b):
     if a == 0:
         return b
