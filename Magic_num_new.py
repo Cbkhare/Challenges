@@ -23,7 +23,7 @@ def alternative(n):
 if __name__=="__main__":
     for _ in range(int(si.readline().strip())):
         n = si.readline().strip()
-        print(alternative(str(n)))
+        print(alternative(n))
 
 """
 This solution prints whether a number is magic number or not.
